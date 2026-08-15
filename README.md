@@ -8,6 +8,10 @@ Adds a **`folder`** text field on the node. The LoRA chooser ("Choose a lora") l
 
 Value is stored in node property **`Folder Prefix`** (saved in workflow JSON). Optional rgthree **`Match`** regex is applied after the folder filter.
 
+![Power Lora Loader with folder filter](screen.png)
+
+Set `folder` to `H3` — the chooser lists only LoRAs from `models/loras/H3/`, and selected paths look like `H3\H3-GalaxyAce.safetensors`.
+
 ## Requirements
 
 - [rgthree-comfy](https://github.com/rgthree/rgthree-comfy)

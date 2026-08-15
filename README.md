@@ -37,7 +37,6 @@ On `setup()`, patches the registered node prototype: wraps `addNonLoraWidgets`, 
 ## Troubleshooting
 
 - **No `folder` field** — rgthree not loaded; restart + hard refresh.
-- **Two `folder` fields** — remove manual edits from rgthree's `power_lora_loader.js`.
 - **Empty list** — wrong folder path or no LoRA files in that folder.
 
 ## License
